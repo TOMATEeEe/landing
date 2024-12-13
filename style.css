@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+header{
+    width: 100%;
+    padding: 20px 8%;
+    background-color: #0A5EB0;
+    position: relative;
+    height: 20vh;
+    
+}
+ul{
+    margin-top: -1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3.5em;
+}
+#img_menu{
+    width: 5em;
+}
+#arte{
+    width: 50em;
+    height: 16em;
+    border-radius: 5%;
+}
+#desafio{
+    width: 25em;
+    grid-area: imagem;
+    align-self: start;
+    position: absolute;
+    top: 2%;
+    right: 17%;
+}
+li{
+    padding: 0.8em;
+    border: solid 2px rgb(11, 18, 61);
+    ;
+    width: 15%;
+    background-color: #084a8d;
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+   list-style: none;
+   margin: 0.2em;
+   margin-left: 10em;
+}
+main{
+    position: relative;
+    padding-left: 5em;
+    padding-bottom: 3em;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: x-large;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+
+
+
+
+body{
+    background-color: #2A3335;
+    color: aliceblue;
+    padding-bottom: 9em;
+}
+h1{
+    font-family:"Inknut Antiqua", serif ;
+    position: absolute;
+    left: 20%;
+    margin-left: 2em;
+    top: 25%;
+    font-size: 1.7em;
+    text-shadow: 0.1em 0.1em rgb(21, 52, 88);
+}
+h2{
+    color: #FFCFEF;
+    font-weight: 600;
+    font-size:2.8em;
+    grid-area: titulo;
+    margin-left:6em;
+    padding-top: 1em;
+}
+
+h3{
+    margin-top: 3em;
+    grid-area: texto;
+    width: 15em;
+    margin-left: 7em;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.ativa{
+    display: inline-block;
+}
+.desativa{
+    display: none;
+}
+strong{
+    color: #0A97B0;
+}
+.distancia{
+    left:40%;
+    color: #FFCFEF;
+}

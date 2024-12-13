@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+header{
+    height: 10em;
+    background-color: #0A5EB0;
+    color: azure;
+    font-size: 1.5em;
+    position: relative;
+    
+}
+h1{
+    margin: auto;
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    top: 22%;
+    left: 42%;
+    font-family: "Inknut Antiqua", serif;
+    text-shadow: -0.2em 0.02em rgb(21, 52, 88);
+}
+h2{
+    text-align: center;
+   
+    align-self: center;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+li{
+    height: 10em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    border: solid 0.34em #FFCFEF;
+    gap: 3em;
+    text-align: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #0A97B0;
+    border-radius: 3rem;
+    padding: 0.5em;
+    height: 90%;
+    background-color: rgb(34, 32, 32);
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: rgb(38, 36, 36);
+    color: aliceblue;
+}
+#arco{
+    width: 1.7em;
+    position: absolute;
+    top: 6%;
+    left: 1%;
+}

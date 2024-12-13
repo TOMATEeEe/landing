@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 3em;
+}
+p{
+    width: 65%;
+    font-size: larger;
+}
+h3{
+    margin: 2em;
+    font-size: xx-large;
+}
+h2{
+    font-size: 2em;
+}
+body{
+    background-color: rgb(30, 29, 29);
+    color: azure;
+}
+h1{
+    font-size: 4em;
+}
+img{
+    width: 3em;
+}

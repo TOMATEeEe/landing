@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+        </style>
+    <header>
+      <a href="index.html"><img src="arrow_circle_left_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 copy.svg" alt="" id="arco"></a>
+        <h1>Formulário</h1>
+        <div id="beha">
+            <marquee id="m_inicio" behavior="" direction="">Cadastre e ganhe um ebook gratuito!!!</marquee>
+        </div>
+        
+    </header>
+    <main>
+        <img src="7081473.jpg" alt="">
+        <div id="div_direita">
+        <h2>cadastre-se</h2>
+    <form action="#">
+        <div class="form_item">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Digite seu nome" id="nome">
+            <marquee id="marquee_invalidoEmail" behavior="" direction="" class="marquee_invalido">O campo nome não foi preenchido como devido</marquee>
+          </div>
+          <div class="form_item">
+            <label for="nome">telefone</label>
+            <input type="text" placeholder="Digite seu telefone" id="telefone">
+            <marquee class="marquee_invalido" behavior="" direction="" id="marquee_invalidoNome">O campo telefone não foi preenchido como devido</marquee>
+          </div>
+          <div class="form_item">
+            <label for="nome">Ramo da sua empresa</label>
+            <input type="text" placeholder="" id="rumo">
+           
+          </div>
+          <div class="form_item">
+            <label for="nome">Email</label>
+            <input type="text" placeholder="Digite seu nome" id="email">
+            <marquee class="marquee_invalido" behavior="" direction="" id="marquee_invalidoTelefone">O campo email não foi preenchido como devido</marquee>
+          </div>
+    </form>
+    <button id="enviar">Enviar</button>
+  </div>
+</main>
+<div id="alert" class="none">
+  <h3>Cadastro Enviado</h3>
+   
+  <div class="button-borders">
+
+   
+    <a href="https://1drv.ms/w/c/c3f25454c32ef4f6/EdeYk3aAtTdIn1dkq-WycxYB_mAWDhVR1zy1lcCg_2coHw?e=bqbyE0"><button class="primary-button">Ebook</button></a>
+  </div>
+
+
+</div>
+<script src="form.js"></script>
+</body>
+</html>
